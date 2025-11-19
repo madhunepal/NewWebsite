@@ -1,7 +1,7 @@
 import { Navigation } from '@/components/ui/navigation';
 import { Particles } from '@/components/ui/particles';
 import { SocialFloat } from '@/components/ui/social-float';
-import { HeroSection } from '@/components/sections/hero';
+import { HeroSection } from '@/components/sections/home';
 import { AboutSection } from '@/components/sections/about';
 import { SkillsSection } from '@/components/sections/skills';
 import { ExperienceSection } from '@/components/sections/experience';
@@ -17,7 +17,7 @@ export default function Home() {
       <SocialFloat />
       
       <main>
-        <HeroSection />
+        <HomeSection />
         <AboutSection />
         <SkillsSection />
         <ExperienceSection />
@@ -34,7 +34,7 @@ export default function Home() {
               © 2024 Madhu Nepal. All rights reserved.
             </div>
             <div className="flex space-x-6">
-              {['hero', 'about', 'projects', 'contact'].map((section) => (
+              {['home', 'about', 'projects', 'contact'].map((section) => (
                 <button
                   key={section}
                   onClick={() => document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' })}
