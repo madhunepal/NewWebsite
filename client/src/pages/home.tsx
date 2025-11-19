@@ -1,7 +1,7 @@
 import { Navigation } from '@/components/ui/navigation';
 import { Particles } from '@/components/ui/particles';
 import { SocialFloat } from '@/components/ui/social-float';
-import { HeroSection } from '@/components/sections/home';
+import { HomeSection } from '@/components/sections/home';
 import { AboutSection } from '@/components/sections/about';
 import { SkillsSection } from '@/components/sections/skills';
 import { ExperienceSection } from '@/components/sections/experience';
