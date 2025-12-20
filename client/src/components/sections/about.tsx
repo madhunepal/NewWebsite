@@ -64,11 +64,11 @@ export function AboutSection() {
               
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="glass rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-cyan-400">5+</div>
+                  <div className="text-2xl font-bold text-cyan-400">7+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
                 <div className="glass rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-pink-500">9+</div>
+                  <div className="text-2xl font-bold text-pink-500">20+</div>
                   <div className="text-sm text-gray-400">.NET Projects</div>
                 </div>
                 <div className="glass rounded-lg p-4 text-center">
@@ -87,6 +87,7 @@ export function AboutSection() {
                 <span className="glass-dark px-4 py-2 rounded-full text-sm border border-green-400 text-green-400">DevSecOps</span>
                 <span className="glass-dark px-4 py-2 rounded-full text-sm border border-cyan-400 text-cyan-400">SQL Server</span>
                 <span className="glass-dark px-4 py-2 rounded-full text-sm border border-pink-500 text-pink-500">JavaScript</span>
+                <span className="glass-dark px-4 py-2 rounded-full text-sm border border-green-400 text-green-400">Clouds + AI</span>
               </div>
             </div>
           </div>
