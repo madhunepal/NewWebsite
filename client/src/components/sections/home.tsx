@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useIntersectionObserver } from '@/hooks/use-intersection-observer';
 
-export function HeroSection() {
+export function HomeSection() {
   const { ref, isVisible } = useIntersectionObserver();
   const [typedText, setTypedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
