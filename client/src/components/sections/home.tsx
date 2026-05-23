@@ -98,16 +98,16 @@ export function HomeSection() {
           {/* Key Stats */}
           <div className="grid grid-cols-3 gap-6 mb-12 max-w-lg mx-auto">
             <div className="glass-dark rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-cyan-400">5+</div>
+              <div className="text-2xl font-bold text-cyan-400">7+</div>
               <div className="text-sm text-gray-400">Years Experience</div>
             </div>
             <div className="glass-dark rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-pink-500">9+</div>
+              <div className="text-2xl font-bold text-pink-500">20+</div>
               <div className="text-sm text-gray-400">.NET Projects</div>
             </div>
             <div className="glass-dark rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-green-400">MS</div>
-              <div className="text-sm text-gray-400">IT Degree</div>
+              <div className="text-2xl font-bold text-green-400">MSIT</div>
+              <div className="text-sm text-gray-400">Degree</div>
             </div>
           </div>
           
