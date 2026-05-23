@@ -9,8 +9,8 @@ export function HomeSection() {
   const [currentRole, setCurrentRole] = useState(0);
   const roles = [
     'Full-Stack Developer',
-    'DevSecOps Engineer', 
-    'Tech Innovation Enthusiast',
+    'IT Engineer', 
+    'Tech Innovation/AI Enthusiast',
     'Problem Solver'
   ];
 
